@@ -40,10 +40,25 @@ salario = float (input ('Escreva aqui quanto seria seu sálario '))
 
 #7 CORRIGIR
 numero1 = float (input ('Escreva aqui um número para descobrir se ele é impar ou par '))
-if numero1 %1 == 0:
+mod = numero1%2
+if mod == 0:
     print('seu numéro é par ')
 else:
     print('seu número é impar')
+
+#8
+print('Vamos calcular sua média pra saber se você passou')
+nota1 = float (input ('Escreva aqui sua primeira nota '))
+nota2 = float (input('Escreva a sua segunda nota agora '))
+media = (nota1+nota2)/2
+print('sua média foi de: ',media)
+if media >= 7 and media < 10:
+    print('Aprovado')
+elif media < 7:
+    print('Reprovado')
+else:
+    print('Aprovado com destinção = CANECA')
+
 
 
 
