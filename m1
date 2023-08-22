@@ -47,7 +47,6 @@ else:
     print('seu número é impar')
 
 #8
-print('Vamos calcular sua média pra saber se você passou')
 nota1 = float (input ('Escreva aqui sua primeira nota '))
 nota2 = float (input('Escreva a sua segunda nota agora '))
 media = (nota1+nota2)/2
@@ -57,8 +56,4 @@ if media >= 7 and media < 10:
 elif media < 7:
     print('Reprovado')
 else:
-    print('Aprovado com destinção = CANECA')
-
-
-
-
+    print('Aprovado com destinção')
