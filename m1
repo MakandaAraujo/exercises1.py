@@ -52,8 +52,30 @@ nota2 = float (input('Escreva a sua segunda nota agora '))
 media = (nota1+nota2)/2
 print('sua média foi de: ',media)
 if media >= 7 and media < 10:
+
     print('Aprovado')
 elif media < 7:
     print('Reprovado')
 else:
     print('Aprovado com destinção')
+
+#9
+#LISTAS
+produtos = ['Sabão','Detergente']
+item = input('Escreva qual produto você deseja acressentar a lista ')
+produtos.append(item)
+for variavel in produtos:
+    print (variavel)
+print(produtos[0])
+
+#10
+#MUDAR VARIAVEL DENTRO DA LISTA
+produtos = ['Sabão','Detergente']
+item = input('Escreva qual produto você deseja acressentar a lista ')
+produtos.append(item)
+for variavel in produtos:
+    print (variavel)
+produtos [0] = 'Batata'
+print(produtos[0])
+
+
